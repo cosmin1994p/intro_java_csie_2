@@ -27,6 +27,10 @@ class Dog extends Animal implements Ibehaviour{
         super.sound();
     }
 
+    public void newMethod(){
+        System.out.println("metoda noua");
+    }
+
     @Override
     public void breath() {
         System.out.println();
